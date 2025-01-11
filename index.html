@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoraHP</title>
+    <link rel="icon" href="iconS.png">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+      #hover-text {
+          transition: transform 0.5s ease;
+      }
+      #hover-text:hover {
+          transform: scale(1.5);
+      }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="#" class="big-title">ソラ<font color="yellow">の</font>ステ<font color="yellow">ー</font>タス</a>
+        </div>
+        <!-- ここにスマートフォン用のメニューアイコンを追加してください -->
+        <span class="fa fa-bars menu-icon"></span>
+  
+        <div class="header-right">
+          <a href="#">ゲーム系</a>
+          <a href="#">Web系</a>
+          <a href="#" class="login">ログイン</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>僕にとって偉大な<span class="containerh1-span">プログラマー</span>とは</h1>
+        <h1>みんなに<span class="containerp-span">しあわせ</span>をもたらす人</h1>
+        <div class="btn-wrapper">
+          <a href="https://lin.ee/JqAwwZt" target="_blank" class="btn signup"><span class="fa fa-line"></span>公式LINEを追加</a>
+          <p>or</p>
+          <a href="https://www.instagram.com/kisskill_lila?igsh=MWRxcmh0aTFuZHE3ZA%3D%3D&utm_source=qr" target="_blank" class="btn instagram"><span class="fa fa-instagram"></span>インスタフォロー</a>
+          <a href="https://x.com/yellow_closet?s=21&t=mV1ta0eCz8HTic4G0xI1rg" target="_blank" class="btn twitter"><span class="fa fa-twitter"></span>Twitterフォロー</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2 id="hover-text">✨ソラの宝物💎</h2>
+
+          <script>
+              document.getElementById('hover-text').addEventListener('mouseover', function() {
+                  this.style.color = 'yellow';
+              });
+              document.getElementById('hover-text').addEventListener('mouseout', function() {
+                  this.style.color = 'white';
+                  
+              });
+          </script>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png">
+              <p>マイクラMOD</p>
+            </div>
+            <p class="text-contents"></p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+              <p>Web拡張ツール</p>
+            </div>
+            <p class="text-contents"></p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p>Web開発</p>
+            </div>
+            <p class="text-contents"></p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>アクションゲーム</p>
+            </div>
+            <p class="text-contents"></p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>作成したもの、ブログ一覧</h2>
+          <h3>今まで作成した作品やブログを記録する保管場所</h3>
+        </div>
+        <a href="#" class="btn message">閲覧</a>
+      </div>
+      
+    </div>
+    <a href="#" id="page-top">トップゑ</a>
+    <footer>
+      
+      <div class="container">
+        <img src="iconS.png"><span>Sora</span>
+        <p class="right">Sora</p>
+        <p>連絡先</p>
+        <p>mobile:080-8747-5047</p>
+        <p>mail-add:kokusaikouka@gmail.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
